@@ -1,0 +1,8 @@
+*.ncb
+*.obj
+*.ilk
+*.idb
+*.pdb
+*.pch
+*.res
+*.sav

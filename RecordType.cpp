@@ -1,0 +1,27 @@
+// RecordType.cpp: implementation of the RecordType class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Beijing.h"
+#include "RecordType.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+RecordType::RecordType()
+{
+
+}
+
+RecordType::~RecordType()
+{
+
+}

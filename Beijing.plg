@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Beijing - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Beijing.res" /d "NDEBUG" /d "_AFXDLL" "D:\Beijing\Beijing.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB270.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Beijing.pdb" /machine:I386 /out:"Release/Beijing.exe" 
+.\Release\AskDlg.obj
+.\Release\BankDlg.obj
+.\Release\Beijing.obj
+.\Release\BeijingDlg.obj
+.\Release\BuyCardDlg.obj
+.\Release\BuyDlg.obj
+.\Release\HospitalDlg.obj
+.\Release\HouseDlg.obj
+.\Release\LoadDlg.obj
+.\Release\NameDlg.obj
+.\Release\NotebookDlg.obj
+.\Release\ProductNewsDlg.obj
+.\Release\ProductType.obj
+.\Release\RecordDlg.obj
+.\Release\RecordType.obj
+.\Release\ReturnDlg.obj
+.\Release\SellDlg.obj
+.\Release\StdAfx.obj
+.\Release\Beijing.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB270.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+Beijing.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

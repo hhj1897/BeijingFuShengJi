@@ -1,0 +1,671 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Beijing.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Beijing.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 238, 139
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 北京浮生记"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         130,IDC_STATIC,"Static",SS_BITMAP,7,7,55,41
+    CONTROL         129,IDC_STATIC,"Static",SS_BITMAP,7,91,55,41
+    CONTROL         131,IDC_STATIC,"Static",SS_BITMAP,7,49,55,41
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,63,7,55,41
+    CONTROL         133,IDC_STATIC,"Static",SS_BITMAP,119,7,55,41
+    CONTROL         135,IDC_STATIC,"Static",SS_BITMAP,175,49,55,41
+    CONTROL         136,IDC_STATIC,"Static",SS_BITMAP,175,91,55,41
+    CONTROL         137,IDC_STATIC,"Static",SS_BITMAP,63,91,55,41
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP,119,91,55,41
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,175,7,55,41
+    CTEXT           "北京浮生记 1.1版",IDC_STATIC,84,53,71,8,SS_CENTERIMAGE | 
+                    NOT WS_GROUP
+    CTEXT           "浙江大学 信电系 沈捷 设计",IDC_STATIC,68,65,102,8,
+                    SS_CENTERIMAGE | NOT WS_GROUP
+    CTEXT           "E-Mail:ShenJie_HHJ@163.Com",IDC_STATIC,66,77,106,8,
+                    SS_CENTERIMAGE | NOT WS_GROUP
+    GROUPBOX        "",IDC_STATIC,63,45,111,45
+END
+
+IDD_BEIJING_DIALOG DIALOGEX 0, 0, 546, 427
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "北京浮生记"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "我的记事本",IDC_NOTE,206,366,43,16
+    PUSHBUTTON      "老子不干了",IDCANCEL,206,322,43,16
+    LTEXT           "俺的现金:2000元",IDC_Cash,11,322,181,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "俺的存款:0元",IDC_Money,11,338,181,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "俺的健康:100%",IDC_Health,11,354,181,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "俺欠村长:5000元",IDC_Own,11,370,181,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    GROUPBOX        "俺的状态",IDC_STATIC,7,311,189,74
+    GROUPBOX        "重要地点",IDC_STATIC,7,390,532,27
+    PUSHBUTTON      "存款",IDC_BANK,13,400,49,14
+    PUSHBUTTON      "邮局",IDC_POST,201,400,49,14
+    PUSHBUTTON      "房屋中介",IDC_HOUSE,295,400,49,14
+    PUSHBUTTON      "体育彩票",IDC_CARD,389,400,49,14
+    PUSHBUTTON      "医院",IDC_HOSPITAL,483,400,49,14
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,274,273,
+                    250,107
+    GROUPBOX        "我要",IDC_STATIC,202,311,52,74
+    CONTROL         "北京站",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP,268,195,39,13
+    CONTROL         "前门",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,268,215,39,13
+    CONTROL         "宣武门",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,268,233,39,13
+    CONTROL         "复兴门",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,268,253,39,13
+    CONTROL         "西直门",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,342,195,39,13
+    CONTROL         "安定门",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,342,215,39,13
+    CONTROL         "雍和宫",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,342,233,39,13
+    CONTROL         "朝阳门",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,342,253,39,13
+    CONTROL         "建国门",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,416,195,39,13
+    CONTROL         "王府井",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,416,215,39,13
+    CONTROL         "西单",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,416,233,39,13
+    CONTROL         "木樨地",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,416,253,39,13
+    CONTROL         "公主坟",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,490,195,39,13
+    CONTROL         "五棵松",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,490,215,39,13
+    CONTROL         "八角村",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,490,233,39,13
+    CONTROL         "苹果圆",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,490,253,39,13
+    GROUPBOX        "俺要去",IDC_STATIC,260,3,279,382,WS_GROUP
+    CONTROL         145,IDC_beijingfengjing,"Static",SS_BITMAP | SS_SUNKEN,
+                    265,27,268,145
+    CTEXT           "今天是第1天",IDC_DAY,266,176,267,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    LISTBOX         IDC_BUYNAME_BOX,7,27,179,112,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_BUYPRICE_BOX,192,27,62,112,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_SELLNAME_BOX,7,195,179,112,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_SELLPRICE_BOX,192,195,62,112,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "商品名称(本地):",IDC_STATIC,7,7,179,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "本地价格:",IDC_STATIC,192,7,62,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "商品名称(俺的):",IDC_STATIC,7,176,179,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "均价,数量:",IDC_STATIC,192,176,62,13,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    GROUPBOX        "",IDC_STATIC,7,142,247,28
+    PUSHBUTTON      "买入",IDC_BUY,20,150,78,16
+    PUSHBUTTON      "卖出",IDC_SELL,162,150,78,16
+    PUSHBUTTON      "取款",IDC_LOAD,107,400,49,14
+    PUSHBUTTON      "财富排行榜",IDC_RECORD,206,344,43,16
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 95, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "我在北京的日子"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "是,当然了",IDOK,7,52,81,14
+    PUSHBUTTON      "不,我累了",IDCANCEL,7,68,81,14
+    CTEXT           "您不再来一把吗?",IDC_STATIC,7,39,81,11,SS_CENTERIMAGE | 
+                    SS_SUNKEN | NOT WS_GROUP
+    CONTROL         129,IDC_STATIC,"Static",SS_BITMAP,7,7,41,31
+    CONTROL         130,IDC_STATIC,"Static",SS_BITMAP,47,7,41,31
+END
+
+IDD_DIALOGBANK DIALOG DISCARDABLE  0, 0, 154, 70
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "银行-存款"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "存款",IDSAVE,7,49,70,14
+    PUSHBUTTON      "离开",IDCANCEL,77,49,70,14
+    EDITTEXT        IDC_SAVE,7,33,140,15,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,138,33,9,15
+    CTEXT           "欢迎光临本行,您要存多少钱?",IDC_STATIC,32,7,115,25,
+                    SS_CENTERIMAGE | SS_SUNKEN | NOT WS_GROUP
+    CONTROL         190,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,7,7,25,25
+END
+
+IDD_DIALOGLOAD DIALOG DISCARDABLE  0, 0, 154, 70
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "银行-取款"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "取款",IDOK,7,49,70,14
+    PUSHBUTTON      "离开",IDCANCEL,77,49,70,14
+    CTEXT           "欢迎光临本行,您要取多少钱?",IDC_STATIC,32,7,115,25,
+                    SS_CENTERIMAGE | SS_SUNKEN | NOT WS_GROUP
+    EDITTEXT        IDC_EDIT1,7,32,140,16,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,138,28,9,16
+    CONTROL         190,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,7,7,25,25
+END
+
+IDD_RETURNMONEY DIALOG DISCARDABLE  0, 0, 143, 68
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "邮局"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "还钱",IDOK,7,47,50,14
+    PUSHBUTTON      "老子不还",IDCANCEL,86,47,50,14
+    CTEXT           "村长说:“兄弟，这次想还多少钱?”",IDC_STATIC,7,7,129,17,
+                    SS_CENTERIMAGE | SS_SUNKEN | NOT WS_GROUP
+    EDITTEXT        IDC_EDIT1,7,28,129,14,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,127,28,9,14
+END
+
+IDD_DIALOGBUY DIALOG DISCARDABLE  0, 0, 170, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "买入"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "买入",IDOK,7,63,50,14
+    PUSHBUTTON      "不买",IDCANCEL,113,63,50,14
+    EDITTEXT        IDC_EDIT1,7,35,156,22,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,149,37,14,19
+    CTEXT           "",IDC_NAME,7,7,156,22,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+END
+
+IDD_DIALOGSELL DIALOG DISCARDABLE  0, 0, 159, 88
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "卖出"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "卖出",IDOK,7,67,50,14
+    PUSHBUTTON      "不卖",IDCANCEL,102,67,50,14
+    CTEXT           "",IDC_SELL_NAME,7,7,145,21,SS_CENTERIMAGE | SS_SUNKEN | 
+                    NOT WS_GROUP
+    EDITTEXT        IDC_EDIT1,7,37,145,21,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,138,37,14,21
+END
+
+IDD_DIALOGHOUSE DIALOG DISCARDABLE  0, 0, 218, 83
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "房屋中介"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "租房",IDOK,7,63,97,13
+    PUSHBUTTON      "离开",IDCANCEL,114,63,97,13
+    CTEXT           "扁子居房屋中介公司向您保证",IDC_STATIC,32,7,179,11,
+                    SS_CENTERIMAGE | SS_SUNKEN | NOT WS_GROUP
+    CTEXT           "本公司定价合理，信誉良好，童叟无欺",IDC_STATIC,32,21,
+                    179,11,SS_CENTERIMAGE | SS_SUNKEN | NOT WS_GROUP
+    CTEXT           "",IDC_NOTE,7,35,204,11,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_PRICE,7,49,204,11,SS_CENTERIMAGE | SS_SUNKEN | 
+                    NOT WS_GROUP
+    CONTROL         191,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,7,7,25,25
+END
+
+IDD_DIALOGCARD DIALOG DISCARDABLE  0, 0, 207, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "体育彩票"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "购买",IDOK,7,61,50,14
+    PUSHBUTTON      "离开",IDCANCEL,150,61,50,14
+    CTEXT           "感谢您对体育彩票的支持! 您要买多少张?(2元一张)",
+                    IDC_STATIC,7,7,193,14,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    EDITTEXT        IDC_EDIT1,7,43,193,14,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN2,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,191,43,9,14
+    CTEXT           "",IDC_NUM,7,25,193,14,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+END
+
+IDD_HOSPITAL DIALOG DISCARDABLE  0, 0, 187, 70
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "医院"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "治疗",IDOK,7,49,83,14
+    PUSHBUTTON      "太黑了,俺去投诉!",IDCANCEL,97,49,83,14
+    CONTROL         183,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,7,7,25,25
+    CTEXT           "本院决对不对患者乱收费，治疗您一个健康点数只收您红包1500元！                        ",
+                    IDC_STATIC,33,7,147,25,SS_SUNKEN | NOT WS_GROUP
+    EDITTEXT        IDC_EDIT1,7,33,173,15,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,170,33,10,15
+END
+
+IDD_DIALOGNOTEBOOK DIALOG DISCARDABLE  0, 0, 204, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "我的记事本"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "俺看完了",IDOK,7,166,190,13
+    CONTROL         187,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,7,7,191,29
+    CTEXT           "",IDC_0,7,49,190,13,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_1,7,62,190,13,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_2,7,75,190,13,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_3,7,88,190,13,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_4,7,101,190,13,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_5,7,114,190,13,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_6,7,127,190,13,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_7,7,140,190,13,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_8,7,153,190,13,SS_CENTERIMAGE | SS_SUNKEN | NOT 
+                    WS_GROUP
+    CTEXT           "目前物价水平与正常水平比值",IDC_STATIC,7,36,190,13,
+                    SS_CENTERIMAGE | SS_SUNKEN | NOT WS_GROUP
+END
+
+IDD_DIALOGNEWS DIALOG DISCARDABLE  0, 0, 224, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "北京黑市新闻"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "俺看完了",IDOK,7,63,210,14
+    CONTROL         189,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,7,7,210,25
+    LTEXT           "",IDC_NEWS,7,32,210,31,SS_SUNKEN | NOT WS_GROUP
+END
+
+IDD_DIALOGRECORD DIALOG DISCARDABLE  0, 0, 187, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "北京财富排行榜"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "俺看完了",IDOK,7,105,173,12
+    LISTBOX         IDC_LIST_NAME,23,20,95,82,NOT LBS_NOTIFY | WS_VSCROLL | 
+                    WS_TABSTOP
+    CTEXT           "1\n2\n3\n4\n5\n6\n7\n8\n9\n10",IDC_STATIC,7,20,15,82,
+                    SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "姓名",IDC_STATIC,7,7,111,11,SS_CENTERIMAGE | SS_SUNKEN | 
+                    NOT WS_GROUP
+    LISTBOX         IDC_LIST_MONEY,122,20,58,82,NOT LBS_NOTIFY | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "财富",IDC_STATIC,122,7,58,11,SS_SUNKEN | NOT WS_GROUP
+END
+
+IDD_DIALOGNAME DIALOG DISCARDABLE  0, 0, 146, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "北京浮生记"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,50,132,14
+    LTEXT           "恭喜您进入北京财富排行榜!\n请在下面输入您的尊姓大名:",
+                    IDC_STATIC,7,7,105,25,SS_SUNKEN | NOT WS_GROUP
+    EDITTEXT        IDC_EDIT1,7,34,132,14,ES_AUTOHSCROLL
+    CONTROL         190,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,114,7,25,
+                    25
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Beijing Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Beijing\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Beijing.EXE\0"
+            VALUE "ProductName", "Beijing 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_BEIJING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 539
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 420
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 88
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_DIALOGBANK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_DIALOGLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_RETURNMONEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_DIALOGBUY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOGSELL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 152
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 81
+    END
+
+    IDD_DIALOGHOUSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 76
+    END
+
+    IDD_DIALOGCARD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_HOSPITAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_DIALOGNOTEBOOK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOGNEWS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOGRECORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_DIALOGNAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 139
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\50.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\29.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\02.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\04.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\1.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\2.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\22.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\3.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\6.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "res\\7.bmp"
+IDB_BEIJINGMAP          BITMAP  DISCARDABLE     "res\\beijingm.bmp"
+IDB_wukesong1           BITMAP  DISCARDABLE     "res\\五棵松1.bmp"
+IDB_andingmen1          BITMAP  DISCARDABLE     "res\\安定门1.bmp"
+IDB_andingmen2          BITMAP  DISCARDABLE     "res\\安定门2.bmp"
+IDB_bajiaocun1          BITMAP  DISCARDABLE     "res\\八角村.bmp"
+IDB_beijingzhan1        BITMAP  DISCARDABLE     "res\\北京站1.bmp"
+IDB_chaoyangmen1        BITMAP  DISCARDABLE     "res\\朝阳门1.bmp"
+IDB_chaoyangmen2        BITMAP  DISCARDABLE     "res\\朝阳门2.bmp"
+IDB_fuxingmen1          BITMAP  DISCARDABLE     "res\\复兴门1.bmp"
+IDB_gongzhufen1         BITMAP  DISCARDABLE     "res\\公主坟1.bmp"
+IDB_jianguomen1         BITMAP  DISCARDABLE     "res\\建国门1.bmp"
+IDB_jianguomen2         BITMAP  DISCARDABLE     "res\\建国门2.bmp"
+IDB_muxidi1             BITMAP  DISCARDABLE     "res\\木樨地1.bmp"
+IDB_pingguoyuan1        BITMAP  DISCARDABLE     "res\\苹果圆1.bmp"
+IDB_pingguoyuan2        BITMAP  DISCARDABLE     "res\\苹果圆2.bmp"
+IDB_qianmen1            BITMAP  DISCARDABLE     "res\\前门1.bmp"
+IDB_qianmen2            BITMAP  DISCARDABLE     "res\\前门2.bmp"
+IDB_qianmen3            BITMAP  DISCARDABLE     "res\\前门3.bmp"
+IDB_wangfujing1         BITMAP  DISCARDABLE     "res\\王府井1.bmp"
+IDB_wangfujing2         BITMAP  DISCARDABLE     "res\\王府井2.bmp"
+IDB_wangfujing3         BITMAP  DISCARDABLE     "res\\王府井3.bmp"
+IDB_xidan1              BITMAP  DISCARDABLE     "res\\西单1.bmp"
+IDB_xidan2              BITMAP  DISCARDABLE     "res\\西单2.bmp"
+IDB_xidan3              BITMAP  DISCARDABLE     "res\\西单3.bmp"
+IDB_xidan4              BITMAP  DISCARDABLE     "res\\西单4.bmp"
+IDB_xizhimen1           BITMAP  DISCARDABLE     "res\\西直门1.bmp"
+IDB_xizhimen2           BITMAP  DISCARDABLE     "res\\西直门2.bmp"
+IDB_xizhimen3           BITMAP  DISCARDABLE     "res\\西直门3.bmp"
+IDB_xizhimen4           BITMAP  DISCARDABLE     "res\\西直门4.bmp"
+IDB_xuanwumen1          BITMAP  DISCARDABLE     "res\\宣武门1.bmp"
+IDB_xuanwumen2          BITMAP  DISCARDABLE     "res\\宣武门2.bmp"
+IDB_yonghegong1         BITMAP  DISCARDABLE     "res\\雍和宫1.bmp"
+IDB_yonghegong2         BITMAP  DISCARDABLE     "res\\雍和宫2.bmp"
+IDB_yonghegong3         BITMAP  DISCARDABLE     "res\\雍和宫3.bmp"
+IDB_HOSPITAL            BITMAP  DISCARDABLE     "res\\hospital.bmp"
+IDB_NOTEBOOK            BITMAP  DISCARDABLE     "res\\notebook.bmp"
+IDB_BITMAPNEWS          BITMAP  DISCARDABLE     "res\\bitmap6.bmp"
+IDB_BANK                BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_BITMAPHOUSE         BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Beijing(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Beijing.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
